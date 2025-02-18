@@ -25,7 +25,7 @@
                     "editor.defaultFormatter": "junstyle.php-cs-fixer"
                 },
                 "editor.codeActionsOnSave": {
-                    "source.fixAll": true
+                    "source.fixAll": "always"
                 },
                 "editor.formatOnSave": true,
                 "editor.renderWhitespace": "all",
