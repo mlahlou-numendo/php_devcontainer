@@ -11,6 +11,9 @@
             "PHPCBF_VERSION": "3.7.2"
         }
     },
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    },
     "workspaceMount": "source=${localWorkspaceFolder},target=/var/www/html,type=bind",
     "workspaceFolder": "/var/www/html",
     "remoteUser": "docker",
