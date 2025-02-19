@@ -45,6 +45,10 @@
                 "phpsab.fixerEnable": true,
                 "phpsab.snifferShowSources": true,
                 "phpsab.standard": "/var/www/html/.config/phpcs.xml",
+                "stylelint.validate": ["css"],
+                "stylelint.config": {
+                    "extends": ["stylelint-config-standard"]
+                },
                 "telemetry.telemetryLevel": "off",
                 "terminal.integrated.profiles.linux": {
                     "bash": {
@@ -59,6 +63,7 @@
                 "junstyle.php-cs-fixer",
                 "ms-azuretools.vscode-docker",
                 "streetsidesoftware.code-spell-checker",
+                "stylelint.vscode-stylelint",
                 "usernamehw.errorlens",
                 "ValeryanM.vscode-phpsab",
                 "zobo.php-intellisense"
