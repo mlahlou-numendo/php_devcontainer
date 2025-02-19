@@ -33,3 +33,19 @@ In my project folder, now, I'll run:
 curl -LOJ --silent https://github.com/mlahlou-numendo/php_devcontainer/archive/refs/heads/main.tar.gz
 tar -xzvf php_devcontainer-main.tar.gz --strip-components 1 && rm -f php_devcontainer-main.tar.gz
 ```
+
+Start VSCode on your machine:
+
+```shell
+code .
+```
+
+If you don't have this popup, just press CTRL+SHIFT+P to open the Command Palette and search for Dev Containers: Rebuild and Reopen in Dev Container and click on it.
+
+VSCode will now take a while to build the Docker image then start a Docker container before you can work. It can take a few minutes depending on the speed of your machine.
+VSCode will automatically suggest opening a Dev Container. Click on the Reopen in Container button.
+
+## References
+
+- [PHP development in a devcontainer with preinstalled code quality tools](https://www.avonture.be/blog/vscode-devcontainer/)
+- [Install a PHP Docker environment in a matter of seconds](https://www.avonture.be/blog/php-devcontainer/)
